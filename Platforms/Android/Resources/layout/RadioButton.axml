@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/segmented_control_background"
+    android:button="@null"
+    android:gravity="center"
+    android:minHeight="30dp"
+    android:textColor="@color/segmented_control_text"
+    android:textSize="12sp" />

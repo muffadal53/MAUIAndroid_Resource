@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<style name="Theme.Splash" parent="@android:style/Theme.Holo.Light">
+		<item name="android:windowBackground">@drawable/background</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+
+	<style name="Theme.Main" parent="@android:style/Theme.Holo.Light">
+		<item name="android:actionBarItemBackground">@drawable/action_bar_item_background</item>
+		<item name="android:actionBarStyle">@style/Theme.Main.ActionBar</item>
+		<item name="android:actionBarTabStyle">@style/Theme.Main.ActionBarTab</item>
+    <item name="android:actionBarTabTextStyle">@style/Theme.Main.ActionBarTabText</item>
+    <item name="android:actionMenuTextColor">@android:color/white</item>
+    <item name="android:actionModeStyle">@style/Theme.Main.ActionMode</item>
+    <item name="android:actionOverflowButtonStyle">@style/Theme.Main.ActionOverflowButton</item>
+    <item name="android:colorActivatedHighlight">@color/activated_highlight</item>
+    <item name="android:colorLongPressedHighlight">@color/long_pressed_highlight</item>
+		<item name="android:homeAsUpIndicator">@drawable/action_bar_back_arrow</item>
+		<item name="android:windowBackground">@drawable/background</item>
+	</style>
+
+	<style name="Theme.Main.ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+		<item name="android:titleTextStyle">@style/Theme.Main.ActionBarTitleText</item>
+	</style>
+
+  <style name="Theme.Main.ActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <item name="android:textColor">@android:color/white</item>
+  </style>
+
+  <style name="Theme.Main.ActionBarTab" parent="@android:style/Widget.Holo.Light.ActionBar.TabView">
+    <item name="android:background">@drawable/tab_background</item>
+  </style>
+
+  <style name="Theme.Main.ActionBarTabText" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
+    <item name="android:textColor">@color/exfo_dark_blue</item>
+  </style>
+
+  <style name="Theme.Main.ActionMode" parent="@android:style/Widget.Holo.Light.ActionMode">
+    <item name="android:background">@drawable/action_mode_item_background</item>
+  </style>
+
+  <style name="Theme.Main.ActionOverflowButton" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+    <item name="android:background">@drawable/action_bar_item_background</item>
+    <item name="android:src">@drawable/ic_menu_overflow</item>
+  </style>
+
+</resources>

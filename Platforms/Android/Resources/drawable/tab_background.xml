@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+ 
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- NOT PRESSED NOT SELECTED TAB STATE -->
+  <item android:state_pressed="false" android:state_selected="false">
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+      <!-- Tab background color for the NOT SELECTED tab state -->
+      <item>
+        <shape>
+          <solid android:color="@android:color/transparent"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+  
+  <!-- PRESSED NOT SELECTED TAB STATE -->
+  <item android:state_pressed="true" android:state_selected="false">
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+      <!-- Tab background color for the NOT SELECTED tab state -->
+      <item>
+        <shape>
+          <solid android:color="@color/exfo_medium_blue"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+  
+  <!-- NOT PRESSED SELECTED TAB STATE -->
+  <item android:state_pressed="false" android:state_selected="true">
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+      <!-- Tab background color for the SELECTED tab state -->
+      <item>
+        <shape>
+          <solid android:color="@android:color/transparent"/>
+        </shape>
+      </item>
+      <!-- Bottom indicator color for the SELECTED tab state -->
+      <item android:top="-10dp" android:left="-10dp" android:right="-10dp">
+        <shape android:shape="rectangle">
+          <stroke android:color="@color/exfo_dark_blue" android:width="5dp"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+
+  <!-- PRESSED SELECTED TAB STATE -->
+  <item android:state_pressed="true" android:state_selected="true">
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+      <!-- Tab background color for the SELECTED tab state -->
+      <item>
+        <shape>
+          <solid android:color="@color/exfo_medium_blue"/>
+        </shape>
+      </item>
+      <!-- Bottom indicator color for the SELECTED tab state -->
+      <item android:top="-10dp" android:left="-10dp" android:right="-10dp">
+        <shape android:shape="rectangle">
+          <stroke android:color="@color/exfo_dark_blue" android:width="5dp"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+
+ </selector>

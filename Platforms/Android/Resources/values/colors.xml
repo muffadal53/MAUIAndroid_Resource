@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<!-- ANDROID HEX Color is ARGB or RGB	-->
+	<color name="exfo_medium_blue">#FF0069AA</color>
+	<color name="exfo_light_blue">#FF00AEEF</color>
+  <color name="exfo_dark_blue">#FF003A63</color>
+  <color name="exfo_gray">#FF939598</color>
+  <color name="exfo_yellow">#FFFFC425</color>
+  <color name="exfo_green">#FF7DC242</color>
+
+  <color name="activated_highlight">#00000000</color>
+  <color name="long_pressed_highlight">#6F848485</color>
+
+  <color name="normal">@android:color/transparent</color>
+  <color name="selected">@color/exfo_medium_blue</color>
+</resources> 
