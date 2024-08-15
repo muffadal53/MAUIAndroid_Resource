@@ -34,7 +34,7 @@
   </style>
 
   <style name="Theme.Main.ActionBarTabText" parent="@android:style/Widget.Holo.Light.ActionBar.TabText">
-    <item name="android:textColor">@color/exfo_dark_blue</item>
+    <item name="android:textColor">@color/test_dark_blue</item>
   </style>
 
   <style name="Theme.Main.ActionMode" parent="@android:style/Widget.Holo.Light.ActionMode">

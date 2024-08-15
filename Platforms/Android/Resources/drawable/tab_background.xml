@@ -20,7 +20,7 @@
       <!-- Tab background color for the NOT SELECTED tab state -->
       <item>
         <shape>
-          <solid android:color="@color/exfo_medium_blue"/>
+          <solid android:color="@color/test_medium_blue"/>
         </shape>
       </item>
     </layer-list>
@@ -38,7 +38,7 @@
       <!-- Bottom indicator color for the SELECTED tab state -->
       <item android:top="-10dp" android:left="-10dp" android:right="-10dp">
         <shape android:shape="rectangle">
-          <stroke android:color="@color/exfo_dark_blue" android:width="5dp"/>
+          <stroke android:color="@color/test_dark_blue" android:width="5dp"/>
         </shape>
       </item>
     </layer-list>
@@ -50,13 +50,13 @@
       <!-- Tab background color for the SELECTED tab state -->
       <item>
         <shape>
-          <solid android:color="@color/exfo_medium_blue"/>
+          <solid android:color="@color/test_medium_blue"/>
         </shape>
       </item>
       <!-- Bottom indicator color for the SELECTED tab state -->
       <item android:top="-10dp" android:left="-10dp" android:right="-10dp">
         <shape android:shape="rectangle">
-          <stroke android:color="@color/exfo_dark_blue" android:width="5dp"/>
+          <stroke android:color="@color/test_dark_blue" android:width="5dp"/>
         </shape>
       </item>
     </layer-list>

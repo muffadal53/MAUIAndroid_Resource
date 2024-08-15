@@ -15,12 +15,12 @@
 		android:state_selected="true"/>
 
 	<item 
-		android:drawable="@color/exfo_medium_blue"
+		android:drawable="@color/test_medium_blue"
 		android:state_pressed="true" 
 		android:state_selected="false"/>
 
 	<item 
-		android:drawable="@color/exfo_medium_blue"
+		android:drawable="@color/test_medium_blue"
 		android:state_pressed="true" 
 		android:state_selected="true"/>
 
